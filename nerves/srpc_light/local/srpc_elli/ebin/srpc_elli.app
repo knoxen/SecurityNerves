@@ -1,0 +1,10 @@
+{application,srpc_elli,
+             [{applications,[kernel,stdlib,elixir,srpc_lib,poison,elli,
+                             srpc_srv]},
+              {description,"Secure Remote Password Cryptor Elli Middleware"},
+              {modules,['Elixir.SrpcElli','Elixir.SrpcElli.Application',
+                        'Elixir.SrpcElli.ElliHandler',
+                        'Elixir.SrpcElli.Record',
+                        'Elixir.SrpcElli.Supervisor']},
+              {registered,[]},
+              {vsn,"0.5.0"}]}.

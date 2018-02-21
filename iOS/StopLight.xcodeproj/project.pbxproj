@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E215C1E11FE979AD006C8896 /* StopNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E215C1E01FE979AD006C8896 /* StopNet.swift */; };
+		E215C1E51FE979C7006C8896 /* SrpcNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E215C1E21FE979C7006C8896 /* SrpcNet.swift */; };
+		E215C1E61FE979C7006C8896 /* HttpNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E215C1E31FE979C7006C8896 /* HttpNet.swift */; };
+		E215C1E71FE979C7006C8896 /* HttpsNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E215C1E41FE979C7006C8896 /* HttpsNet.swift */; };
+		E24BD1ED1F88811E00ED9241 /* GestureRecognizerClosures.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E2B83A721F8846F300DCBF40 /* GestureRecognizerClosures.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E24BD1EF1F88811E00ED9241 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E2B83A731F8846F300DCBF40 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E24BD1F11F88811E00ED9241 /* SwiftyTimer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E2B83A711F8846F200DCBF40 /* SwiftyTimer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E24BD1F41F8987B500ED9241 /* Knoxen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24BD1F31F8987B500ED9241 /* Knoxen.framework */; };
+		E24BD1F61F8987C000ED9241 /* Knoxen.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E24BD1F31F8987B500ED9241 /* Knoxen.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E28EA0AD1FAF914500D85084 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28EA0AC1FAF914500D85084 /* User.swift */; };
+		E2927C351F9118D400901214 /* PKHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2927C341F9118D400901214 /* PKHUD.framework */; };
+		E2927C371F9118E000901214 /* PKHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E2927C341F9118D400901214 /* PKHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E2B83A5D1F8840AE00DCBF40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B83A5C1F8840AE00DCBF40 /* AppDelegate.swift */; };
+		E2B83A5F1F8840AE00DCBF40 /* StopLightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B83A5E1F8840AE00DCBF40 /* StopLightController.swift */; };
+		E2B83A621F8840AE00DCBF40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B83A601F8840AE00DCBF40 /* Main.storyboard */; };
+		E2B83A641F8840AE00DCBF40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B83A631F8840AE00DCBF40 /* Assets.xcassets */; };
+		E2B83A671F8840AE00DCBF40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B83A651F8840AE00DCBF40 /* LaunchScreen.storyboard */; };
+		E2B83A6F1F8846CA00DCBF40 /* StopLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B83A6E1F8846CA00DCBF40 /* StopLight.swift */; };
+		E2B83A741F8846F300DCBF40 /* SwiftyTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B83A711F8846F200DCBF40 /* SwiftyTimer.framework */; };
+		E2B83A751F8846F300DCBF40 /* GestureRecognizerClosures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B83A721F8846F300DCBF40 /* GestureRecognizerClosures.framework */; };
+		E2B83A761F8846F300DCBF40 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B83A731F8846F300DCBF40 /* SwiftyJSON.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E24BD1F21F88811E00ED9241 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E24BD1F11F88811E00ED9241 /* SwiftyTimer.framework in Embed Frameworks */,
+				E2927C371F9118E000901214 /* PKHUD.framework in Embed Frameworks */,
+				E24BD1EF1F88811E00ED9241 /* SwiftyJSON.framework in Embed Frameworks */,
+				E24BD1ED1F88811E00ED9241 /* GestureRecognizerClosures.framework in Embed Frameworks */,
+				E24BD1F61F8987C000ED9241 /* Knoxen.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E215C1E01FE979AD006C8896 /* StopNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StopNet.swift; path = StopLight/StopNet/StopNet.swift; sourceTree = SOURCE_ROOT; };
+		E215C1E21FE979C7006C8896 /* SrpcNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SrpcNet.swift; path = StopLight/StopNet/SrpcNet.swift; sourceTree = SOURCE_ROOT; };
+		E215C1E31FE979C7006C8896 /* HttpNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpNet.swift; path = StopLight/StopNet/HttpNet.swift; sourceTree = SOURCE_ROOT; };
+		E215C1E41FE979C7006C8896 /* HttpsNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpsNet.swift; path = StopLight/StopNet/HttpsNet.swift; sourceTree = SOURCE_ROOT; };
+		E24BD1F31F8987B500ED9241 /* Knoxen.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Knoxen.framework; path = frameworks/Knoxen.framework; sourceTree = "<group>"; };
+		E28EA0AC1FAF914500D85084 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E2927C341F9118D400901214 /* PKHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PKHUD.framework; path = Carthage/Build/iOS/PKHUD.framework; sourceTree = "<group>"; };
+		E2B83A591F8840AE00DCBF40 /* StopLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B83A5C1F8840AE00DCBF40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2B83A5E1F8840AE00DCBF40 /* StopLightController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopLightController.swift; sourceTree = "<group>"; };
+		E2B83A611F8840AE00DCBF40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2B83A631F8840AE00DCBF40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2B83A661F8840AE00DCBF40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2B83A681F8840AE00DCBF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B83A6E1F8846CA00DCBF40 /* StopLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopLight.swift; sourceTree = "<group>"; };
+		E2B83A711F8846F200DCBF40 /* SwiftyTimer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyTimer.framework; path = Carthage/Build/iOS/SwiftyTimer.framework; sourceTree = "<group>"; };
+		E2B83A721F8846F300DCBF40 /* GestureRecognizerClosures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GestureRecognizerClosures.framework; path = Carthage/Build/iOS/GestureRecognizerClosures.framework; sourceTree = "<group>"; };
+		E2B83A731F8846F300DCBF40 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2B83A561F8840AE00DCBF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2927C351F9118D400901214 /* PKHUD.framework in Frameworks */,
+				E24BD1F41F8987B500ED9241 /* Knoxen.framework in Frameworks */,
+				E2B83A741F8846F300DCBF40 /* SwiftyTimer.framework in Frameworks */,
+				E2B83A751F8846F300DCBF40 /* GestureRecognizerClosures.framework in Frameworks */,
+				E2B83A761F8846F300DCBF40 /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E215C1DF1FE97989006C8896 /* StopNet */ = {
+			isa = PBXGroup;
+			children = (
+				E215C1E01FE979AD006C8896 /* StopNet.swift */,
+				E215C1E31FE979C7006C8896 /* HttpNet.swift */,
+				E215C1E41FE979C7006C8896 /* HttpsNet.swift */,
+				E215C1E21FE979C7006C8896 /* SrpcNet.swift */,
+			);
+			name = StopNet;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		E2B83A501F8840AE00DCBF40 = {
+			isa = PBXGroup;
+			children = (
+				E2B83A5B1F8840AE00DCBF40 /* StopLight */,
+				E2B83A5A1F8840AE00DCBF40 /* Products */,
+				E2B83A701F8846F200DCBF40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2B83A5A1F8840AE00DCBF40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2B83A591F8840AE00DCBF40 /* StopLight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2B83A5B1F8840AE00DCBF40 /* StopLight */ = {
+			isa = PBXGroup;
+			children = (
+				E2B83A5C1F8840AE00DCBF40 /* AppDelegate.swift */,
+				E2B83A5E1F8840AE00DCBF40 /* StopLightController.swift */,
+				E2B83A6E1F8846CA00DCBF40 /* StopLight.swift */,
+				E28EA0AC1FAF914500D85084 /* User.swift */,
+				E215C1DF1FE97989006C8896 /* StopNet */,
+				E2B83A601F8840AE00DCBF40 /* Main.storyboard */,
+				E2B83A631F8840AE00DCBF40 /* Assets.xcassets */,
+				E2B83A651F8840AE00DCBF40 /* LaunchScreen.storyboard */,
+				E2B83A681F8840AE00DCBF40 /* Info.plist */,
+			);
+			path = StopLight;
+			sourceTree = "<group>";
+		};
+		E2B83A701F8846F200DCBF40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2927C341F9118D400901214 /* PKHUD.framework */,
+				E24BD1F31F8987B500ED9241 /* Knoxen.framework */,
+				E2B83A721F8846F300DCBF40 /* GestureRecognizerClosures.framework */,
+				E2B83A731F8846F300DCBF40 /* SwiftyJSON.framework */,
+				E2B83A711F8846F200DCBF40 /* SwiftyTimer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2B83A581F8840AE00DCBF40 /* StopLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B83A6B1F8840AE00DCBF40 /* Build configuration list for PBXNativeTarget "StopLight" */;
+			buildPhases = (
+				E2B83A551F8840AE00DCBF40 /* Sources */,
+				E2B83A561F8840AE00DCBF40 /* Frameworks */,
+				E2B83A571F8840AE00DCBF40 /* Resources */,
+				E24BD1F21F88811E00ED9241 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StopLight;
+			productName = StopLight;
+			productReference = E2B83A591F8840AE00DCBF40 /* StopLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2B83A511F8840AE00DCBF40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Knoxen;
+				TargetAttributes = {
+					E2B83A581F8840AE00DCBF40 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E2B83A541F8840AE00DCBF40 /* Build configuration list for PBXProject "StopLight" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2B83A501F8840AE00DCBF40;
+			productRefGroup = E2B83A5A1F8840AE00DCBF40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2B83A581F8840AE00DCBF40 /* StopLight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2B83A571F8840AE00DCBF40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B83A671F8840AE00DCBF40 /* LaunchScreen.storyboard in Resources */,
+				E2B83A641F8840AE00DCBF40 /* Assets.xcassets in Resources */,
+				E2B83A621F8840AE00DCBF40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2B83A551F8840AE00DCBF40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E215C1E11FE979AD006C8896 /* StopNet.swift in Sources */,
+				E215C1E51FE979C7006C8896 /* SrpcNet.swift in Sources */,
+				E2B83A6F1F8846CA00DCBF40 /* StopLight.swift in Sources */,
+				E2B83A5F1F8840AE00DCBF40 /* StopLightController.swift in Sources */,
+				E28EA0AD1FAF914500D85084 /* User.swift in Sources */,
+				E2B83A5D1F8840AE00DCBF40 /* AppDelegate.swift in Sources */,
+				E215C1E61FE979C7006C8896 /* HttpNet.swift in Sources */,
+				E215C1E71FE979C7006C8896 /* HttpsNet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2B83A601F8840AE00DCBF40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2B83A611F8840AE00DCBF40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2B83A651F8840AE00DCBF40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2B83A661F8840AE00DCBF40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2B83A691F8840AE00DCBF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2B83A6A1F8840AE00DCBF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2B83A6C1F8840AE00DCBF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 882HSMC43D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/frameworks",
+				);
+				INFOPLIST_FILE = StopLight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.knoxen.StopLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2B83A6D1F8840AE00DCBF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 882HSMC43D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/frameworks",
+				);
+				INFOPLIST_FILE = StopLight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.knoxen.StopLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2B83A541F8840AE00DCBF40 /* Build configuration list for PBXProject "StopLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B83A691F8840AE00DCBF40 /* Debug */,
+				E2B83A6A1F8840AE00DCBF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2B83A6B1F8840AE00DCBF40 /* Build configuration list for PBXNativeTarget "StopLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B83A6C1F8840AE00DCBF40 /* Debug */,
+				E2B83A6D1F8840AE00DCBF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2B83A511F8840AE00DCBF40 /* Project object */;
+}

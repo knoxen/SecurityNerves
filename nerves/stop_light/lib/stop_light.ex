@@ -1,0 +1,2 @@
+defmodule StopLight do
+end

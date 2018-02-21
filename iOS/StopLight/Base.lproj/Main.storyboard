@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Stop Light Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="StopLightController" customModule="StopLight" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="Stop Light View">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="p9R-EC-zzh">
+                                <rect key="frame" x="50" y="40" width="668" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="CIa-hT-hZ1"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="StopNet?" enabled="NO"/>
+                                    <segment title="StopNet?" enabled="NO"/>
+                                    <segment title="StopNet?" enabled="NO"/>
+                                </segments>
+                                <connections>
+                                    <action selector="stopNetChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="5td-sB-0Pj"/>
+                                </connections>
+                            </segmentedControl>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="g4A-JI-cYl" userLabel="Stop Lights">
+                                <rect key="frame" x="0.0" y="130" width="768" height="854"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eae-Mk-AyB" userLabel="Red View">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="258"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FyS-wZ-o4S" userLabel="Red Light">
+                                                <rect key="frame" x="255" y="0.0" width="258" height="258"/>
+                                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="FyS-wZ-o4S" firstAttribute="height" secondItem="eae-Mk-AyB" secondAttribute="height" id="5Xq-mK-Dg3"/>
+                                            <constraint firstItem="FyS-wZ-o4S" firstAttribute="width" secondItem="eae-Mk-AyB" secondAttribute="height" id="FvC-cv-BgW"/>
+                                            <constraint firstItem="FyS-wZ-o4S" firstAttribute="centerX" secondItem="eae-Mk-AyB" secondAttribute="centerX" id="IAK-TA-Els"/>
+                                            <constraint firstItem="FyS-wZ-o4S" firstAttribute="centerY" secondItem="eae-Mk-AyB" secondAttribute="centerY" id="z2e-6b-UTS"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VlZ-Xn-Ddb" userLabel="Yellow View">
+                                        <rect key="frame" x="0.0" y="298" width="768" height="258"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GZQ-1j-TsR" userLabel="Yellow Light">
+                                                <rect key="frame" x="254.5" y="0.0" width="258" height="258"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="GZQ-1j-TsR" secondAttribute="height" multiplier="1:1" id="7v0-QM-wN7"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="GZQ-1j-TsR" firstAttribute="centerX" secondItem="VlZ-Xn-Ddb" secondAttribute="centerX" id="RVu-jZ-TRV"/>
+                                            <constraint firstItem="GZQ-1j-TsR" firstAttribute="centerY" secondItem="VlZ-Xn-Ddb" secondAttribute="centerY" id="XEl-UQ-MNk"/>
+                                            <constraint firstItem="GZQ-1j-TsR" firstAttribute="height" secondItem="VlZ-Xn-Ddb" secondAttribute="height" id="ZKV-DC-Dpu"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zlg-ac-9XD" userLabel="Green View">
+                                        <rect key="frame" x="0.0" y="596" width="768" height="258"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GkN-Fx-BhR" userLabel="Green Light">
+                                                <rect key="frame" x="255.5" y="0.0" width="257.5" height="258"/>
+                                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="GkN-Fx-BhR" secondAttribute="height" multiplier="1:1" id="EoG-iu-3Vr"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="GkN-Fx-BhR" firstAttribute="centerX" secondItem="Zlg-ac-9XD" secondAttribute="centerX" id="OPP-3y-jN0"/>
+                                            <constraint firstItem="GkN-Fx-BhR" firstAttribute="height" secondItem="Zlg-ac-9XD" secondAttribute="height" id="kti-Mx-97s"/>
+                                            <constraint firstItem="GkN-Fx-BhR" firstAttribute="centerY" secondItem="Zlg-ac-9XD" secondAttribute="centerY" id="u80-EQ-akc"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <variation key="heightClass=regular-widthClass=compact" spacing="20"/>
+                                <variation key="heightClass=regular-widthClass=regular" spacing="40"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.95684086509999999" blue="0.90442622959999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="g4A-JI-cYl" firstAttribute="top" secondItem="p9R-EC-zzh" secondAttribute="bottom" constant="8" symbolic="YES" id="30F-px-W5c">
+                                <variation key="heightClass=regular-widthClass=compact" constant="20"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="40"/>
+                            </constraint>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="g4A-JI-cYl" secondAttribute="bottom" constant="20" id="8Rw-Up-2r2">
+                                <variation key="heightClass=regular-widthClass=compact" constant="20"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="40"/>
+                            </constraint>
+                            <constraint firstItem="p9R-EC-zzh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="Or7-iL-i8R"/>
+                            <constraint firstItem="g4A-JI-cYl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Yq8-Vi-Hs2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="g4A-JI-cYl" secondAttribute="trailing" id="he5-Sy-ir4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="p9R-EC-zzh" secondAttribute="trailing" constant="50" id="qFI-Tv-5nd"/>
+                            <constraint firstItem="p9R-EC-zzh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="teR-Fl-PBM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="greenLightView" destination="GkN-Fx-BhR" id="xCC-VE-DIv"/>
+                        <outlet property="redLightView" destination="FyS-wZ-o4S" id="Cem-gw-bcH"/>
+                        <outlet property="stopNetSegmentedControl" destination="p9R-EC-zzh" id="SOI-Ca-g3x"/>
+                        <outlet property="yellowLightView" destination="GZQ-1j-TsR" id="RrB-HH-LAN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.5" y="133.59375"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,4 @@
+github "marcbaldwin/GestureRecognizerClosures" ~> 4.0
+github "pkluz/PKHUD"
+github "SwiftyJSON/SwiftyJSON"
+github "radex/SwiftyTimer"

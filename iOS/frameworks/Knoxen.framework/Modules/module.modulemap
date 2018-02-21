@@ -1,0 +1,11 @@
+framework module Knoxen {
+  umbrella header "Knoxen.h"
+
+  export *
+  module * { export * }
+}
+
+module Knoxen.Swift {
+    header "Knoxen-Swift.h"
+    requires objc
+}
